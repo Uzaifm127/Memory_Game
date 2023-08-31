@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+#start-btn {
+  padding: 2rem 4rem;
+  font-size: 2.5rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
+#game-container {
+  position: relative;
+  padding: 3rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  margin-bottom: 0.5rem;
+  text-align: end;
+  font-size: 1.5rem;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(6, 5.8rem);
+  grid-template-rows: repeat(6, 5.8rem);
+  margin-top: 1rem;
+  grid-gap: 1rem;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 0.3rem solid black;
+  border-radius: 0.3rem;
+}
+
+.front {
+  padding: 1rem;
+  font-size: 3rem;
+  background: #f4c531;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+}
+
+.back {
+  background-size: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transform: rotateY(180deg) scaleX(-1);
+}
+
+.sides {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#stop-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#stop-btn {
+  background: #001f3f;
+  text-align: center;
+  color: white;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.watermark-container {
+  position: absolute;
+  bottom: 91%;
+  right: 61%;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.watermark-container-start {
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+  transform: translateX(50%);
+  pointer-events: none;
+}
+
+.watermark {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-height: 580px) {
+  html {
+    font-size: 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 40%;
+  }
+
+  .card {
+    border: 2px solid black;
+  }
+}
+
+@media (max-width: 340px) {
+  html {
+    font-size: 30%;
+  }
+  .card{
+    border: 1px solid black;
   }
 }
