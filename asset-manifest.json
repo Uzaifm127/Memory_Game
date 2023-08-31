@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Memory_Game/static/css/main.7550f2c3.css",
-    "main.js": "/Memory_Game/static/js/main.e02da484.js",
+    "main.js": "/Memory_Game/static/js/main.9236890e.js",
     "static/js/787.69b12325.chunk.js": "/Memory_Game/static/js/787.69b12325.chunk.js",
     "static/media/mankey.png": "/Memory_Game/static/media/mankey.16b76d93e3a36121ff5e.png",
     "static/media/gloom.png": "/Memory_Game/static/media/gloom.619edb8ff1b560673039.png",
@@ -22,11 +22,11 @@
     "static/media/pikachu-2.png": "/Memory_Game/static/media/pikachu-2.c8df557ab9581eb3f7e6.png",
     "index.html": "/Memory_Game/index.html",
     "main.7550f2c3.css.map": "/Memory_Game/static/css/main.7550f2c3.css.map",
-    "main.e02da484.js.map": "/Memory_Game/static/js/main.e02da484.js.map",
+    "main.9236890e.js.map": "/Memory_Game/static/js/main.9236890e.js.map",
     "787.69b12325.chunk.js.map": "/Memory_Game/static/js/787.69b12325.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7550f2c3.css",
-    "static/js/main.e02da484.js"
+    "static/js/main.9236890e.js"
   ]
 }
