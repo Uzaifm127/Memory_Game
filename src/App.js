@@ -5,10 +5,10 @@ import GameContainer from "./components/GameContainer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Memory_Game">
       <Routes>
         <Route
-          path="/"
+          path="/Memory_Game"
           element={<Button buttonContent={`Start Game`} id={`start-btn`} />}
         />
         <Route path="/game" element={<GameContainer />} />
