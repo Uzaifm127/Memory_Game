@@ -43,6 +43,8 @@ const GameContainer = () => {
   const stopGame = () => {
     setSelectedCards([]);
     setMatchedCards([]);
+    setTimeSeconds(0);
+    setTimeMinutes(0);
     setMoves(0);
     setTimeout(() => {
       setCards((previousCards) => {
