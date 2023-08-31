@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Memory_Game/static/css/main.7550f2c3.css",
+    "main.js": "/Memory_Game/static/js/main.dff685ef.js",
+    "static/js/787.69b12325.chunk.js": "/Memory_Game/static/js/787.69b12325.chunk.js",
+    "static/media/mankey.png": "/Memory_Game/static/media/mankey.16b76d93e3a36121ff5e.png",
+    "static/media/gloom.png": "/Memory_Game/static/media/gloom.619edb8ff1b560673039.png",
+    "static/media/pikachu.png": "/Memory_Game/static/media/pikachu.6808d2997e1badb839b6.png",
+    "static/media/razz-berry.png": "/Memory_Game/static/media/razz-berry.e47021247bbdbe3ce328.png",
+    "static/media/dratini.png": "/Memory_Game/static/media/dratini.e58b1876b1577df20fe9.png",
+    "static/media/lion.png": "/Memory_Game/static/media/lion.cb68ec8ebf9067871612.png",
+    "static/media/snorlax.png": "/Memory_Game/static/media/snorlax.b1920bdf98da7509b6f4.png",
+    "static/media/leonardo.png": "/Memory_Game/static/media/leonardo.0322be182fc0cb19df6f.png",
+    "static/media/mew.png": "/Memory_Game/static/media/mew.661e0ec1bf2ca267f70d.png",
+    "static/media/egg.png": "/Memory_Game/static/media/egg.16544b68e38c8eeea503.png",
+    "static/media/meowth.png": "/Memory_Game/static/media/meowth.fdb3358677aa1391f136.png",
+    "static/media/jigglypuff.png": "/Memory_Game/static/media/jigglypuff.aa46dbd4cc5017f5ccc8.png",
+    "static/media/pidgey.png": "/Memory_Game/static/media/pidgey.c439aee4b97b3c498534.png",
+    "static/media/santa-claus.png": "/Memory_Game/static/media/santa-claus.718fb248409fefd0e9b9.png",
+    "static/media/pokemon-trainer.png": "/Memory_Game/static/media/pokemon-trainer.b1f64837d2cc5e1c538f.png",
+    "static/media/gundam.png": "/Memory_Game/static/media/gundam.9921961ce09a8ee561a6.png",
+    "static/media/pikachu-2.png": "/Memory_Game/static/media/pikachu-2.c8df557ab9581eb3f7e6.png",
+    "index.html": "/Memory_Game/index.html",
+    "main.7550f2c3.css.map": "/Memory_Game/static/css/main.7550f2c3.css.map",
+    "main.dff685ef.js.map": "/Memory_Game/static/js/main.dff685ef.js.map",
+    "787.69b12325.chunk.js.map": "/Memory_Game/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7550f2c3.css",
+    "static/js/main.dff685ef.js"
+  ]
+}
